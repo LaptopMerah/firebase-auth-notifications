@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398139783743",
+    "project_id": "auth-firebase-laptopmerah",
+    "storage_bucket": "auth-firebase-laptopmerah.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398139783743:android:bd40848233f9fe197ed68a",
+        "android_client_info": {
+          "package_name": "com.example.auth_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFrNnxI8NTYvqkFVa5P0S_pk9GmmF5t8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
