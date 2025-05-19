@@ -3,6 +3,7 @@ import 'package:auth_firebase/pages/login_page.dart';
 import 'package:auth_firebase/pages/notes_page.dart';
 import 'package:auth_firebase/pages/register_page.dart';
 import 'package:auth_firebase/pages/second_page.dart';
+import 'package:auth_firebase/pages/user_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: 'login',
       navigatorKey: navigatorKey,
       routes: {
@@ -31,6 +33,7 @@ class MyApp extends StatelessWidget {
         'login': (context) => const LoginPage(),
         'register': (context) => const RegisterPage(),
         'notes': (context) => const NotesPage(),
+        'user': (context) => const UserPage(),
       },
     );
   }
